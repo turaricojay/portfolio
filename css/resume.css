@@ -1,0 +1,190 @@
+html,
+body {
+    margin: 0px;
+    width: auto;
+    height: 100%;
+    display: flex; 
+}
+
+.parent { 
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px;
+    height: 190vh;
+    width: 100%;
+    display: flex;
+    background: #464646;
+}
+
+.first {
+    margin: 10px;
+    background: #252525;
+    padding: 10px;    
+    height: auto;
+    width: 20%;
+    display: flex;
+}
+
+.first1 {
+    margin-top: 0px;
+    width: auto;
+    text-align: center;    
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    padding-top: 10px;
+}
+
+.first2 {
+    margin-top: auto;
+}
+
+.second {
+    margin: 10px;
+    background: #3c3c3c;
+    display: inline-block; 
+    padding: 10px;    
+    height: auto;
+    width: 71.43%;
+     
+}
+
+.second-a {
+    margin: 5px;
+    padding: 0px;
+    padding-right: 20px;
+    height: auto;
+    width: 95.5%;
+    background: #ffffff;
+    display: flex;    
+}
+
+.image {
+    height: auto;
+    width: auto;
+    background: yellow;
+    float: left;
+}
+
+img {
+    padding-top: 13%;
+    height: 90%;
+    width: 50%;
+    margin-left: 15px;
+    float: right;
+}
+
+.second-a1 {
+    margin-bottom: 10px;
+    margin-top: 50px;
+    width: auto;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 0px;
+    padding-right: 0px;
+    color: red;
+    background: #3c3c3c;
+    position: absolute;
+}
+
+.second-a2 {
+    margin-top: 200px;
+    width: 200px;
+    height: auto;
+    text-shadow: 30px 20px 10px #464646;
+    font-size: 70px;
+    font-weight: bold;
+    color: black;
+    padding-top: 0px;
+    padding-right: 40px;
+    padding-left: 0px;
+    background: #3c3c3c;
+    position: absolute;
+}
+
+.second-a2:after {
+    content: 'Rico Jay Tura';    
+}
+
+.second-a2:hover:after {
+    content: 'James Reid Tura';
+    transition: 1s;
+}
+
+.second-a3 {
+    margin-top: 500px;
+    width: auto;
+    height: auto;
+    text-align: center; 
+    font-size: 25px;
+    font-weight: bold;
+    color: #000f98;
+    padding-top: 100px;
+    padding-right: 80px;
+    padding-left: 0px;
+    background: #3c3c3c;
+    position: absolute;
+}
+
+.second-b {
+    margin: 5px;
+    padding:10px;
+    height:8%;
+    width: 95.5%;
+    background: #252525;    
+}
+
+.second-b1 {
+    margin-top: 18px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 75%;
+    width: 45%;
+    border-radius: 30px;
+    float: left;
+    background: #464646;
+}
+
+.second-b2 {
+    margin-top: 18px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 75%;
+    width: 45%;
+    border-radius: 30px;
+    float: right;
+    background: #464646;
+}
+
+.to-portfolio {
+    margin: 25px;
+    width: 75%;
+    border-radius: 30px;
+    padding: 12px;
+    text-decoration: none;
+    background: #5c5c5c;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;    
+}
+
+.to-portfolio:active {
+    color: cyan;
+}
+
+.second-c {
+    margin: 5px;
+    padding:10px;
+    height: auto;
+    width: 95.5%;
+    background: #ffffff;    
+}
+
+.big {
+    font-size: 30px;
+    font-weight: bold;
+}
