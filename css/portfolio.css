@@ -1,1 +1,61 @@
+html,
+body {
+    margin: 0px;
+    width: 100%;
+}
 
+.parent {
+    width: auto;
+    height: 100%;
+    background: #7d7d7d;
+    display: flex;
+}
+
+.top {
+    margin-top: 0px;
+    padding: 10px;
+    height: 50px;
+    width: auto;
+    text-align: center;    
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background: #00105a;
+}
+
+.square {
+    width: 20%;
+    height: auto;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    background: #00105a;
+    color: #ff5e00;
+}
+
+.name {
+    height: auto;
+    width: 50px;
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 0px;
+    text-shadow: 10px 20px 10px #989898;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.go {
+    width: 50%;
+    border-radius: 30px;
+    padding: 10px;
+    text-decoration: none;
+    background: #5c5c5c;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    
+}
