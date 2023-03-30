@@ -1,0 +1,57 @@
+body{
+    background-image: url("../pictures/lebronback.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.data {
+    height: 60px;
+    width: 1858px;
+    border: 5px solid black;
+    border-radius: 15px;
+    box-shadow: 20px 20px 20px black;
+    margin: 10px;
+    padding: 0px;
+    color: #ffffff;
+    background-color: #ff1f0071;
+    font-weight: bold;
+    transition: width 1s, height 1s;
+}
+
+.data:hover {
+    height: 100px;
+    font-size: 30px;
+    background-color: #ff4900;
+}
+
+.text-center {
+    text-align: center;
+    font-size: 90px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #00000055;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 30px;
+}
+
+.text {
+    font-size: 30px;
+}
+
+.lebron {
+    margin: 0px;
+}
+
+img {
+    height: 500px;
+    width: 700px;
+    border-radius: 30px;
+    border: 5px solid black;
+    transition: width 1s, height 1s;
+    background-image: linear-gradient(orange,black);
+}
+
+img:hover {
+    height: 700px;
+    width: 1000px;
+}

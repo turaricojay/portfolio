@@ -1,61 +1,81 @@
 html,
 body {
     margin: 0px;
-    width: 100%;
 }
 
 .parent {
-    width: auto;
-    height: 100%;
-    background: #7d7d7d;
-    display: flex;
+    background-image: linear-gradient(orange,black);
+    height: 969px;
+    width: 1903px;
 }
 
 .top {
     margin-top: 0px;
     padding: 10px;
-    height: 50px;
+    height: 100px;
     width: auto;
     text-align: center;    
-    font-size: 30px;
+    font-size: 90px;
     font-weight: bold;
-    color: white;
+    color: rgb(255, 72, 0);
     background: #00105a;
 }
 
 .square {
-    width: 20%;
-    height: auto;
+    width: 450px;
+    height: 600px;
     padding: 10px;
-    margin: 0 auto;
+    margin-top: 50px;
+    margin-left: 122px;
+    box-shadow: 30px 30px 5px rgb(41, 39, 39);
+    border-radius: 20px;
     display: flex;
-    background: #00105a;
-    color: #ff5e00;
+    background-image: linear-gradient(#00105a,#728cff);
+    color: rgb(255, 72, 0);
+    display: inline-block;
 }
 
 .name {
-    height: auto;
     width: 50px;
-    font-size: 80px;
+    font-size: 150px;
     font-weight: bold;
-    margin-top: 0px;
-    text-shadow: 10px 20px 10px #989898;
+    margin: 0px;
+    text-shadow: 50px 30px 10px #989898;
 }
 
 .text {
     font-weight: bold;
     font-size: 30px;
+    margin-top: 50px;
+    margin-left: 10px;
 }
 
-.go {
-    width: 50%;
+.resume {
     border-radius: 30px;
     padding: 10px;
     text-decoration: none;
-    background: #5c5c5c;
+    background-image: linear-gradient(#00105a,black);
     text-align: center;
-    font-size: 10px;
+    font-size: 40px;
     font-weight: bold;
     color: white;
-    
+    position: absolute;
+    margin-top: 80px;
+    width: 300px;
+    margin-left: 67px;
+}
+
+.tribute {
+    border-radius: 30px;
+    padding: 10px;
+    text-decoration: none;
+    background-image: linear-gradient(#00105a,black);
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    margin-top: 180px;
+    width: 300px;
+    margin-left: 67px;
 }
