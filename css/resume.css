@@ -111,11 +111,6 @@ img {
     content: 'Rico Jay Tura';    
 }
 
-.second-a2:hover:after {
-    content: 'James Reid Tura';
-    transition: 1s;
-}
-
 .second-a3 {
     margin-top: 620px;
     margin-left: 60px;
