@@ -2,6 +2,32 @@ body{
     background-image: url("../pictures/lebronback.webp");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+}
+
+.top {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.back {
+    border-radius: 20px;
+    background-image: linear-gradient(black, red);
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    border: solid black;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.back:hover {
+    font-size: 60px;
+    background: #ff4900;
 }
 
 .data {
@@ -28,18 +54,23 @@ body{
     text-align: center;
     font-size: 90px;
     font-weight: bold;
-    color: #ffffff;
-    background-color: #00000055;
-    box-shadow: 5px 5px 5px black;
-    border-radius: 30px;
+    color: rgb(255, 72, 0);
+    -webkit-text-stroke: 0.5px white;
 }
 
 .text {
+    font-size: 50px;
+}
+
+.note {
+    color: rgb(121, 255, 255);
     font-size: 30px;
+    -webkit-text-stroke: cyan;
 }
 
 .lebron {
     margin: 0px;
+    font-size: 120px;
 }
 
 img {
