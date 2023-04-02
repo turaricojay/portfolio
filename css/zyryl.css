@@ -12,6 +12,22 @@ body{
     background-size: 100% 100%;
     color: aqua;
 }
+.top {
+    margin-top: 20px;
+}
+.back {
+    border-radius: 20px;
+    background-image: linear-gradient(black, red);
+    color: aqua;
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    border: solid aqua;
+    text-align: center;
+}
 .name h1{
      align-items: start;
      padding-left: 25px;
@@ -183,23 +199,6 @@ td p{
     margin: 5px;
     border-radius: 20px;
 }
-
-div#social {
-    position: relative;
-    left: 110%;
-    margin-top: -1100px;
-}
-
-#label {
-    position: absolute;
-    top: -50px;
-    border-radius: 50px;
-    text-align: center;
-    background-color: rgb(8, 130, 230);
-    padding: 10px;
-    left: -14px;
-    display: none;
-}
 .wrapper{
     position: relative;
     background: red;
@@ -207,22 +206,11 @@ div#social {
     cursor: pointer;
     box-shadow: 0px 10px 10px rgb(0, 0, 0, 0.1);
     transition: all 0.3s ease-out;
-    float: left;
     padding: 15px;
-    margin-top: 100px;
+    margin-left: 325px;
+    margin-bottom: 10px;
 }
-.button{
-    padding: 10px;
-}
-
-.icon i{
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 30px;
-    height: 20px;
-    width: 30px;
-}
-.wrapper.button.icon{
+.wrapper{
     display: inline-block;
     height: 60px;
     width: 60px;
