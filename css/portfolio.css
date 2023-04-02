@@ -4,7 +4,7 @@ body {
 }
 
 .parent {
-    background-image: linear-gradient(orange,black);
+    background-image: linear-gradient(red,orange);
     height: 969px;
     width: 1903px;
 }
@@ -17,7 +17,7 @@ body {
     text-align: center;    
     font-size: 90px;
     font-weight: bold;
-    color: rgb(255, 72, 0);
+    color: red;
     background: #00105a;
 }
 
@@ -31,8 +31,15 @@ body {
     border-radius: 20px;
     display: flex;
     background-image: linear-gradient(#00105a,#728cff);
-    color: rgb(255, 72, 0);
+    color: red;
     display: inline-block;
+    transition: width 1s, height 1s;
+}
+
+.square:hover {
+    width: 500px;
+    height: 700px;
+    box-shadow: 50px 30px 10px cyan;
 }
 
 .name {
@@ -65,6 +72,12 @@ body {
     margin-left: 67px;
 }
 
+.resume:hover {
+    width: 350px;
+    font-size: 60px;
+    color: red;
+}
+
 .tribute {
     border-radius: 30px;
     padding: 10px;
@@ -78,4 +91,10 @@ body {
     margin-top: 180px;
     width: 300px;
     margin-left: 67px;
+}
+
+.tribute:hover {
+    width: 350px;
+    font-size: 50px;
+    color: red;
 }
