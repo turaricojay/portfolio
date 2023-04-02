@@ -12,6 +12,22 @@ body{
     background-attachment: fixed;
     background-size: 100% 100%;
 }
+.up {
+    margin-top: 20px;
+}
+.back {
+    border-radius: 20px;
+    background-image: linear-gradient(red,orange);
+    color: black;
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    border: solid black;
+    text-align: center;
+}
 .name h1{
      align-items: start;
      padding-left: 25px;
@@ -24,7 +40,7 @@ body{
     position: absolute;
     left: 800px;
     top: 100px;
-    border: solid whitesmoke;
+    border: solid black;
 }
 .container-1{
     position: absolute;
@@ -196,10 +212,6 @@ div#social {
     padding: 10px;
     left: -14px;
     display: none;
-}
-
-.wrapper:hover #label {
-    display: block;
 }
 .wrapper{
     position: relative;
